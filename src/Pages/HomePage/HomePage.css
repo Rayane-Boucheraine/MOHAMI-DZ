@@ -1,0 +1,499 @@
+:root {
+    --vert: #21353D;
+    --black: #040D0E;
+    --brown: #8C7C66;
+    --white: #D9D9D9;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.special {
+    text-align: center;
+    color: var(--vert);
+    font-family: Montagu Slab;
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+/* Header */
+header {
+    padding: 0 30px 30px;
+    background-color: var(--black);
+}
+header > ul {
+    padding: 8px 30px;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+}
+header > ul li a {
+    color: var(--white);
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+}
+/* Header */
+/* Navbar */
+nav {
+    padding-left: 20px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a img {
+    width: 100px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+nav ul li a {
+    color: var(--vert);
+    text-align: center;
+    font-family: Montagu Slab;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .3s;
+}
+nav ul li a:hover {
+    color: var(--brown);
+}
+nav .buttons {
+    display: flex;
+    flex-direction: column;
+}
+nav .buttons div {
+    display: flex;
+    align-content: center;
+} 
+nav .buttons i, 
+nav .buttons span {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brown);
+    font-size: 14px;
+    cursor: pointer;
+    background: #FFF;
+}
+nav .buttons a i {
+    background-color: var(--vert);
+}
+nav .buttons a > i {
+    background-color: var(--vert);
+    color: #F5F5F5;
+    transition: .3s;
+}
+nav .buttons a > i:hover {
+    background-color: var(--brown);
+}
+nav .buttons span {
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+nav .buttons div span {
+    border-top: 1px solid #CDCDCD;
+    background: #FCFCFC;
+}
+nav .buttons div a i {
+    border: 1px solid #F5F5F5;
+    border-bottom: 0;
+    background: #FFF;
+    color: #8C7C66;
+    transition: .3s;
+}
+nav .buttons div a i:hover {
+    background-color: var(--vert);
+    border-color: var(--vert);
+}
+/* Navbar */
+/* Hero */
+.hero {
+    padding: 70px 0 0;
+    width: 100%;
+    height: calc(100vh - 142px);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("../../assets/Women IMage.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero > div {
+    margin: 0 0 120px 200px;
+}
+.hero h1 {
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.hero p {
+    color: #ffffffbb;
+    font-family: Montagu Slab;
+    font-size: 15px;
+    font-weight: 400;
+}
+.hero form {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.hero form input {
+    color: #AAA;
+    width: 400px;
+    padding: 15.5px 6px 15.5px 32px;
+    outline: none;
+}
+.hero form div:nth-of-type(1) input:nth-of-type(1) {
+    border-top-left-radius: 37px;
+}
+.hero form div:nth-of-type(1) input:nth-of-type(3) {
+    border-top-right-radius: 37px;
+    border-bottom-right-radius: 37px;
+}
+.hero form div:nth-of-type(2) input:nth-of-type(2) {
+    border-bottom-right-radius: 37px;
+}
+.hero form div:nth-of-type(2) input:nth-of-type(1) {
+    border-bottom-left-radius: 37px;
+}
+.hero form input::placeholder {
+    color: #AAA;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero form  button {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    background: #001D50;
+    color: white;
+}
+/* Hero */
+/* Rendez-Vous */
+.RendezVous,
+.Apropos {
+    padding: 80px;
+}
+.RendezVous .content img {
+    width: 400px;
+}
+.RendezVous .content form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 64%;
+}
+.RendezVous .content form input,
+.RendezVous .content form select,
+.RendezVous .content form textarea {
+    width: 100%;
+    padding: 13px 24px;
+    border: 1px solid #CECECE;
+    background: var(--vert);
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+.RendezVous .content form input::placeholder,
+.RendezVous .content form textarea::placeholder {
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 16px;
+    font-weight: 400;
+}
+.RendezVous .content form input:nth-last-of-type(1) {
+    width: 200px;
+    align-self: flex-end;
+}
+.RendezVous .content form textarea {
+    height: 288px;
+}
+/* Rendez-Vous */
+/* Question */
+.Question {
+    position: relative;
+    background-color: var(--vert);
+    padding: 80px 200px;
+}
+.Question .special {
+    color: #FFF;
+    text-align: start;
+}
+.Question form {
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Question form input,
+.Question form select,
+.Question form textarea {
+    padding: 16px 20px;
+    color: #21353D;
+    font-family: Montagu Slab;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+.Question form textarea {
+    height: 240px;
+    resize: none;
+}
+.Question form input::placeholder,
+.Question form textarea::placeholder  {
+    color: #21353D;
+}
+.Question form button {
+    position: relative;
+    text-align: start;
+    background-color: #FFF;
+    padding: 16px 20px;
+    width: 220px;
+    align-self: flex-end;
+    color: #21353D;
+    font-family: Montagu Slab;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.Question form button::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: .6px;
+    background-color: #21353D;
+    top: 50%;
+    right: 20px;
+}
+.Question img {
+    position: absolute;
+}
+.Question img:nth-of-type(1) {
+    width: 160px;
+    top: 40px;
+    right: 450px;
+}
+.Question img:nth-of-type(2) {
+    width: 400px;
+    top: 160px;
+    right: 0;
+}
+/* Question */
+/* Apropos */
+.Apropos .content img {
+    width: 320px;
+}
+.Apropos .content .text {
+    flex-basis: 66%;
+}
+.Apropos .content .text h3 {
+    color: #000;
+    font-family: Montagu Slab;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.Apropos .content .text p {
+    color: #000;
+    font-family: Montagu Slab;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+/* Apropos */
+/* footer */
+footer {
+    position: relative;
+    background-color: var(--vert);
+    padding: 80px 260px 32px;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer ul > li a i {
+    padding-left: 80px;
+}
+footer ul:nth-of-type(1) div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #38B6AB;
+}
+footer ul:nth-of-type(1) div:nth-of-type(1) li:nth-of-type(2) a i {
+    padding-left: 80px;
+    color: #38B6AB;
+}
+footer ul:nth-of-type(1) div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer ul:nth-of-type(1) div:nth-of-type(2) li:nth-of-type(2) {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+footer ul:nth-of-type(1) div:nth-of-type(2) li:nth-of-type(2) a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px #38B6AB;
+    color: #38B6AB;
+    font-size: 12px;
+}
+footer ul:nth-of-type(2) {
+    padding: 90px 0 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+footer ul li a {
+    position: relative;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+}
+footer ul:nth-of-type(2) li:not(li:nth-last-of-type(1)) a::after {
+    content: "";
+    position: absolute;
+    right: -66px;
+    top: 0px;
+    height: .6px;
+    width: 4px;
+    background-color: #FFFFFF;
+}
+footer > img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} 
+footer span {
+    display: block;
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* footer */
+
+@media (max-width: 768px) {
+    header > ul {
+        justify-content: center;
+    }
+    nav .buttons i, nav .buttons span {
+        width: 30px;
+        height: 30px;
+    }
+    .hero {
+        padding: 70px 16px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero form {
+        margin-top: 40px;
+        width: 380px;
+    }
+    .hero form div {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero form input {
+        width: 380px;
+    }
+    .hero > div {
+        margin: 0;
+    }
+    .hero form div:nth-of-type(1) input:nth-of-type(1) {
+        border-top-right-radius: 37px;
+    }
+    .hero form div:nth-of-type(1) input:nth-of-type(3) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .hero form div:nth-of-type(2) input:nth-of-type(1) {
+        border-bottom-left-radius: 0;
+        border-bottom: solid 1px #AAA;
+    }
+    .hero form div:nth-of-type(2) input:nth-of-type(2) {
+        border-bottom-left-radius: 37px;
+    }
+    .hero form button {
+        top: 230px;
+    }
+    .RendezVous, 
+    .Apropos {
+        padding: 40px 20px;
+    }
+    .special {
+        font-size: 28px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .Question {
+        padding: 20px;
+    }
+    .Question img:nth-of-type(2) {
+        width: 220px;
+        top: 200px;
+    }
+    .Apropos .content img {
+        margin: 0 auto 30px;
+        width: 200px;
+    }
+    .Apropos .content .text h3 {
+        font-size: 16px;
+    }
+    .Apropos .content .text p {
+        font-size: 11px;
+    }
+    footer {
+        padding: 20px;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+    footer ul li a {
+        font-size: 15px;
+    }
+    footer ul:nth-of-type(1) div:nth-of-type(2) {
+        gap: 30px;
+    }
+    footer ul:nth-of-type(2) {
+        gap: 20px;
+    }
+    footer ul:nth-of-type(2) li:not(li:nth-last-of-type(1)) a::after {
+        display: none;
+    }
+}

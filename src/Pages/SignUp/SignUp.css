@@ -1,0 +1,193 @@
+.SignUp header {
+    background-color: #e9e1d7;
+}
+.SignUp header > ul {
+    padding-right: 60px;
+}
+.SignUp header > ul li a {
+    color: #21353D;
+}
+.SignUp {
+    position: relative;
+}
+.SignUp .Sign {
+    z-index: 99999;
+    padding: 20px 100px 40px;
+}
+.SignUp .special {
+    font-size: 60px;
+}
+.SignUp .Sign > .buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1.8px;
+    z-index: 99999;
+}
+.SignUp .Sign > .buttons button {
+    background-color: #FFF;
+    width: 50%;
+    color: #333231;
+    text-align: center;
+    font-family: Montagu Slab;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.SignUp header nav {
+    box-shadow: 6px 54px 61px -45px #2C2317;
+}
+.SignUp .Sign-content {
+    position: relative;
+    text-align: center;
+    padding: 80px 120px 40px;
+    background-color: #21353D;
+    z-index: 9999;
+}
+.SignUp .Sign-content > button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 4px 10px;
+    color: #243033;
+    font-family: Montagu Slab;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.SignUp .Sign-content > button img {
+    width: 30px;
+}
+.SignUp .Sign-content div {
+    position: relative;
+}
+.SignUp .Sign-content span {
+    display: block;
+    width: fit-content;
+    margin: 60px auto 30px;
+    background-color: #FFFFFF;
+    padding: 0 20px;
+}
+.SignUp .Sign-content span::after,
+.SignUp .Sign-content span::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    background-color: #CECECE;
+    width: 47%;
+    height: 2px;
+}
+.SignUp .Sign-content span::after {
+    left: 0;
+}
+.SignUp .Sign-content span::before {
+    right: 0;
+}
+.SignUp .Sign-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.SignUp .Sign-content form input {
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid #CECECE;
+    background: #FFF;
+    color: #757575;
+    font-family: Montagu Slab;  
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+.SignUp .Sign-content form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 10px 0;
+    background: #25233B;
+    color: #FFF;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.SignUp .Sign-content form button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+}
+.SignUp > img {
+    position: absolute;
+    top: 140px;
+    left: -80px;
+}
+.Particulier form, 
+.Avocat form {
+    gap: 20px !important;
+} 
+.Particulier form input, 
+.Avocat form input {
+    margin: 0 !important;
+    font-family: inter !important;
+    font-size: 14px !important;
+} 
+.Particulier form > input, 
+.Avocat form > input {
+    margin: 0 60px 0 60px;
+}
+.Particulier form div, 
+.Avocat form div {
+    display: flex;
+    gap: 20px;
+}
+.Particulier h2, 
+.Avocat h2 {
+    text-align: start;
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.Particulier form div:nth-of-type(1) input, 
+.Avocat form div:nth-of-type(1) input {
+    width: 100px;
+} 
+.Particulier form div:nth-of-type(2) input, 
+.Avocat form div:nth-of-type(2) input {
+    width: 20%;
+} 
+.Particulier form div:nth-of-type(3) input, 
+.Avocat form div:nth-of-type(3) input {
+    width: 200px;
+} 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.overlay {
+    position: absolute;
+    background-color: #FFF;
+    height: 650px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+}
+@media (max-width: 768px) {
+    .SignUp header > ul {
+        padding: 0 !important;
+    }
+}

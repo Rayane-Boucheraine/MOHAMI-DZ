@@ -1,0 +1,134 @@
+.SignIn header {
+    background-color: #e9e1d7;
+}
+.SignIn header > ul {
+    padding-right: 30px;
+}
+.SignIn header > ul li a {
+    color: #21353D;
+}
+.SignIn {
+    position: relative;
+}
+.SignIn .Sign {
+    padding: 20px 100px 40px;
+}
+.SignIn .special {
+    font-size: 60px;
+}
+.SignIn header nav {
+    box-shadow: 6px 54px 61px -45px #2C2317;
+}
+.SignIn .Sign-content {
+    position: relative;
+    text-align: center;
+    padding: 80px 120px 240px;
+    background-color: #21353D;
+    z-index: 9999;
+}
+.SignIn .Sign-content > button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 4px 10px;
+    color: #243033;
+    font-family: Montagu Slab;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.SignIn .Sign-content > button img {
+    width: 30px;
+}
+.SignIn .Sign-content div {
+    position: relative;
+}
+.SignIn .Sign-content span {
+    display: block;
+    width: fit-content;
+    margin: 60px auto;
+    background-color: #FFFFFF;
+    padding: 0 20px;
+}
+.SignIn .Sign-content span::after,
+.SignIn .Sign-content span::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    background-color: #CECECE;
+    width: 47%;
+    height: 2px;
+}
+.SignIn .Sign-content span::after {
+    left: 0;
+}
+.SignIn .Sign-content span::before {
+    right: 0;
+}
+.SignIn .Sign-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.SignIn .Sign-content form input {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid #CECECE;
+    background: #FFF;
+    color: #757575;
+    font-family: Montagu Slab;  
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+.SignIn .Sign-content form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 10px 0;
+    background: #25233B;
+    color: #FFF;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+.SignIn .Sign-content form button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+}
+.SignIn > img {
+    position: absolute;
+    top: 140px;
+    left: -80px;
+}
+.SignIn p {
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.SignIn p a {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.overlay {
+    position: absolute;
+    background-color: #FFF;
+    height: 500px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+}

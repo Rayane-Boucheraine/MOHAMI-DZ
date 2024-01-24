@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montagu Slab', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

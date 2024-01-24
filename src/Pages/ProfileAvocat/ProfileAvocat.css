@@ -1,0 +1,183 @@
+.Profile header {
+    background: #21353D;
+}
+.Profile-content {
+    padding: 40px 0;
+    background-color: #21353D;
+}
+.Profile-content > h1,
+.Profile-content .location > h1 {
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 0 120px;
+}
+.Profile-content .profile-information {
+    position: relative;
+    background-color: #FFF;
+    width: 70%;
+    margin: 80px auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.Profile-content .profile-information .image img:nth-of-type(2) {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.Profile-content .profile-information .text {
+    padding: 20px 0 80px 200px;
+}
+.Profile-content .buttons {
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Profile-content .buttons button {
+    background-color: #FFF;
+    width: 50%;
+    color: #333231;
+    text-align: center;
+    font-family: Montagu Slab;
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Profile-content .profile-information .text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Profile-content .profile-information .text ul > div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.Profile-content .profile-information .text ul li {
+    display: flex;
+    align-items: center;
+}
+.Profile-content .profile-information .text ul li div {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Profile-content .profile-information .text ul li div h3 {
+    color: #000;
+    font-family: Montagu Slab;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Profile-content .profile-information .text ul li div span {
+    color: #000;
+}
+.Profile-content .profile-information .text ul li div span {
+    padding-bottom: 4px;
+}
+.Profile-content .profile-information .text ul li > span {
+    padding-left: 50px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Montagu Slab;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Profile-content .profile-information .vérification {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.Profile-content .profile-information .vérification span {
+    color: #197311;
+    font-family: Montagu Slab;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+.Profile-content .profile-information .vérification img {
+    width: 100px;
+}
+.Profile-content .buttons-info {
+    gap: 140px;
+}
+.Profile-content .buttons-info button {
+    width: 280px !important;
+    position: relative;
+    border-radius: 8px;
+    font-family: Montagu Slab;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Profile-content .buttons-info button::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 1.8px;
+    background-color: #21353da2;
+    right: 28px;
+    top: 50%;
+    margin-left: 80px;
+} 
+.Profile-content .buttons-info a:nth-of-type(1) button {
+    background-color: #C3945B;
+    color: #FFF;
+    padding: 24px 50px 24px 20px;
+}
+.Profile-content .buttons-info a:nth-of-type(2) button {
+    background-color: #F7E8D7;
+    color: #21353D;
+    padding: 24px 84px 24px 20px;
+}
+.Profile-content .buttons-info button:nth-of-type(1) {
+    background-color: #FFF;
+    color: #21353D;
+    padding: 24px 50px 24px 20px;
+}
+.Profile-content .buttons-info button:nth-of-type(1):after {
+    background-color: #21353D;
+}
+.Profile-content .location {
+    margin-top: 100px;
+}
+.Profile-content .location button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: 100px auto;
+    padding: 6px 84px 6px 44px;
+    border-radius: 8px;
+    background: #ECE2D8;
+    color: #21353D;
+    font-family: Montagu Slab;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Profile-content .location > img {
+    margin: 0 auto;
+    height: 900px;
+}
+.Profile-content .location button::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 1.25px;
+    background-color: #21353da2;
+    right: 22px;
+    margin-left: 80px;
+}
+.Profile-content .location button img {
+    width: 60px;
+}

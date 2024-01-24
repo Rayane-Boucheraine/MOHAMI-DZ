@@ -1,0 +1,96 @@
+.recharche header {
+    background-color: #21353D;
+}
+.recharche .recharche-content {
+    position: relative;
+    padding: 60px 100px;
+    background-color: #21353D;
+}
+.recharche .recharche-content h1 {
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.recharche .cabinets-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px; 
+    row-gap: 30px;
+}
+.recharche .cabinets-boxes .cabinets-box {
+    position: relative;
+    border-radius: 20.8px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.16); 
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 99999;
+}
+.recharche .cabinets-boxes .cabinets-box .image img:nth-of-type(1) {
+   position: relative;
+   top: -.2px;
+}
+.recharche .cabinets-boxes .cabinets-box .image img:nth-of-type(2) {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    width: 70px;
+}
+.recharche .cabinets-boxes .cabinets-box .text {
+    padding: 50px 20px 20px;
+}
+.recharche .cabinets-boxes .cabinets-box .text h3 {
+    color: #001D50;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+.recharche .cabinets-boxes .cabinets-box .text span {
+    display: block;
+    color: #001D50;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 18px 0;
+    padding: 0 0 0 20px;
+}
+.recharche .cabinets-boxes .cabinets-box .text ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.recharche .cabinets-boxes .cabinets-box .text ul li {
+    color: #001D50;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 37, 112, 0.42);
+    padding: 0px 10px;
+}
+.recharche-content > img {
+    width: 400px;
+    position: absolute;
+    top: 480px;
+    right: 0;
+}
+.recharche .cabinets-boxes .cabinets-box .text button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.recharche .cabinets-boxes .cabinets-box .text button a {
+    width: 100%;
+    background-color: #001D50;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 37, 112, 0.42);
+    padding: 2px 10px;
+}

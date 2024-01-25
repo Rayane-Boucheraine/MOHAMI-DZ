@@ -148,13 +148,13 @@ nav .buttons div a i:hover {
     font-weight: 400;
 }
 .hero form {
-    width: 1200px;
+    width: 79%;
     margin: 0 auto;
     position: relative;
 }
 .hero form input {
     color: #AAA;
-    width: 400px;
+    width: 330px;
     padding: 15.5px 6px 15.5px 32px;
     outline: none;
 }
@@ -179,7 +179,7 @@ nav .buttons div a i:hover {
 }
 .hero form  button {
     position: absolute;
-    right: 20px;
+    right: 220px;
     top: 10px;
     width: 35px;
     height: 35px;
@@ -406,6 +406,22 @@ footer span {
 }
 /* footer */
 
+@media (max-width: 1280px) {
+    .hero form div:nth-of-type(1) input:nth-of-type(1) {
+        border-top-right-radius: 37px;
+    }
+    .hero form div:nth-of-type(1) input:nth-of-type(3) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .hero form div:nth-of-type(2) input:nth-of-type(1) {
+        border-bottom-left-radius: 0;
+        border-bottom: solid 1px #AAA;
+    }
+    .hero form div:nth-of-type(2) input:nth-of-type(2) {
+        border-bottom-left-radius: 37px;
+    }
+}
 @media (max-width: 768px) {
     header > ul {
         justify-content: center;
@@ -449,7 +465,7 @@ footer span {
         border-bottom-left-radius: 37px;
     }
     .hero form button {
-        top: 230px;
+        top: 230px !important;
     }
     .RendezVous, 
     .Apropos {

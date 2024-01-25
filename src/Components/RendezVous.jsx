@@ -7,7 +7,7 @@ const RendezVous = () => {
             <h1 className="special">Rendez-Vous</h1>
             <div className="content">
                 <div className="image">
-                    <img src={img} alt="laywer" />
+                    <img src={img} alt="laywer" className="max-md:mx-[auto]"/>
                 </div>
                 <form action="" className="">
                     <input type="text" placeholder="Nom d'avocat" />

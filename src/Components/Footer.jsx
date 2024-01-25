@@ -3,7 +3,7 @@ import img from '../assets/__after.png'
 
 const Footer = () => {
     return(
-        <footer>
+        <footer className="max-xl:px-[80px]">
             <ul className="">
                 <li><a href="#">Choisissez un bureau <i class="fa-solid fa-angle-right"></i></a></li>
                 <div  className="max-md:my-[30px]">

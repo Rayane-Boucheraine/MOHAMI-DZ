@@ -44,7 +44,7 @@ const Inforamtion = () => {
                     <img src={logo} alt="logo" />
                 </div>
             </div>
-            <div className="buttons buttons-info flex-wrap max-md:gap-[20px] max-md:flex-col max-md:!gap-[40px]">
+            <div className="buttons buttons-info flex-wrap max-md:!p-[0] max-md:gap-[20px] max-md:flex-col max-md:!gap-[40px]">
                 <Link to='/#acceuil'><button>Reserver</button></Link>
                 <Link to='/#question'><button>Poser une quetions</button></Link>
                 <button onClick={Handdle}>Notez L'avocat</button>

@@ -5,7 +5,7 @@ const Apropos = () => {
     return(
         <section className="Apropos" id="apropos">
             <h1 className="special">À propos</h1>
-            <div className="content">
+            <div className="content gap-[20px]">
                 <div className="img">
                     <img src={img} alt="vector" />
                 </div>
